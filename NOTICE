@@ -1,0 +1,23 @@
+ICDepth
+Copyright 2026 The ICDepth Authors
+
+This product includes software from the following projects.
+
+DiffSynth-Studio (https://github.com/modelscope/DiffSynth-Studio)
+Copyright 2023 Zhongjie Duan
+Licensed under the Apache License, Version 2.0.
+The `icdepth` package is a modified subset of DiffSynth-Studio. The Wan2.1
+model definitions, model loading, pipeline, training and VRAM management code
+were adapted for ICDepth.
+
+Video Depth Anything (https://github.com/DepthAnything/Video-Depth-Anything)
+Copyright 2025 Bytedance Ltd. and/or its affiliates
+Licensed under the Apache License, Version 2.0.
+`icdepth/models/dinov2/` is copied without modification from commit 4f5ae23.
+
+DINOv2 (https://github.com/facebookresearch/dinov2)
+Copyright (c) Meta Platforms, Inc. and affiliates
+Licensed under the Apache License, Version 2.0.
+
+Model weights are distributed separately and are not covered by the license of
+this repository. See README.md for their licenses.
